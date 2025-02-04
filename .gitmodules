@@ -1,0 +1,12 @@
+[submodule "umsa_framework"]
+	path = umsa_framework
+	url = git@bitbucket.org:umsa-dev/umsa_framework.git
+[submodule "umsa_psm_v2"]
+	path = umsa_psm_v2
+	url = git@bitbucket.org:umsa-dev/umsa_psm_v2.git
+[submodule "umsa_sidomweb"]
+	path = umsa_sidomweb
+	url = git@bitbucket.org:umsa-dev/umsa_sidomweb.git
+[submodule "umsa_sidomweb_documentos_erp"]
+	path = umsa_sidomweb_documentos_erp
+	url = git@bitbucket.org:umsa-dev/umsa_sidomweb_documentos_erp.git

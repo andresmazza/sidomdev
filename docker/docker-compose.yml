@@ -1,0 +1,18 @@
+services:
+  php-fpm:
+    build: php-fpm
+    hostname: php-fpm
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./src:/var/www/html
+      - ./php-fpm/config/conf.d:/usr/local/etc/php-fpm.d
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./src:/var/www/html
+      - ./nginx/conf.d/:/etc/nginx/conf.d
+    depends_on:
+      - php-fpm

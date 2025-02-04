@@ -1,3 +1,11 @@
+docker/src
+umsa_framework/
+umsa_psm_v2/
+umsa_sidomweb/
+umsa_sidomweb_documentos_erp/
+
+
+
 */config/development
 */logs/log-*.php
 !*/logs/index.html

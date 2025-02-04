@@ -1,0 +1,36 @@
+{
+  "php.files.exclude": [],
+
+  "diffEditor.renderSideBySide": false,
+  "php.debug.ideKey": "devilbox",
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "saveAndRun": {
+    "commands": [
+      {
+        "match": ".*",
+        "cmd": "./scripts/sync.sh",
+        "useShortcut": false,
+        "silent": false
+      }
+    ]
+  },
+  "editor.minimap.enabled": false,
+  
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.advanced": {},
+  "intelephense.codeLens.implementations.enable": true,
+  "intelephense.environment.phpVersion": "5.4.45",
+  "intelephense.environment.includePaths": [
+    "./umsa_framework"
+  ],
+
+
+  "json.schemas": [],
+  
+  "editor.formatOnSave": false,
+  "editor.formatOnSaveMode": "modifications"
+}
